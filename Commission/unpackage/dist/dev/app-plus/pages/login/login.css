@@ -1,0 +1,113 @@
+
+.errorContainer[data-v-e4e4508d] {
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  margin-bottom: 0.9375rem;
+  width: 100%;
+  max-width: 19.6875rem;
+}
+.errorText[data-v-e4e4508d] {
+  color: white;
+  margin-top: 0.3125rem;
+}
+uni-form[data-v-e4e4508d] {
+  width: 100%;
+  max-width: 19.6875rem;
+  background: white;
+  padding: 0.9375rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0.0625rem 0.3125rem rgba(0, 0, 0, 0.1);
+}
+uni-label[data-v-e4e4508d] {
+  color: #5f5f5f;
+  font-size: 0.75rem;
+  margin: 1.25rem 0 0.625rem;
+  display: block;
+}
+.uni-input[data-v-e4e4508d] {
+  width: 100%;
+  padding: 0.625rem;
+  border-bottom: 0.0625rem solid #959595;
+}
+.password-container[data-v-e4e4508d] {
+  position: relative;
+}
+.toggle-password[data-v-e4e4508d] {
+  position: absolute;
+  right: 0.625rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+}
+.submit-btn[data-v-e4e4508d] {
+  background-color: #EA9243;
+  color: white;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+}
+.submit-btn[disabled][data-v-e4e4508d] {
+  background-color: #cccccc;
+}
+.error[data-v-e4e4508d] {
+  color: #ff0062;
+  margin-top: 0.3125rem;
+  font-size: 0.75rem;
+}
+.link[data-v-e4e4508d] {
+  margin-top: 0.9375rem;
+  color: #1a73e8;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+.logoContainer[data-v-e4e4508d] {
+  background-color: #FFF5EB;
+  padding: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensure it takes up full width */
+}
+.mobile-logo[data-v-e4e4508d] {
+  width: 10%; /* Adjust this based on how large you want the logo */
+  height: auto;
+  object-fit: contain; /* Ensures the logo maintains its aspect ratio */
+}
+
+/* Mobile Specific Styles */
+@media (max-width: 500px) {
+.mobile-logo[data-v-e4e4508d] {
+    width: 80%; /* Logo should be bigger on smaller devices */
+}
+}
+
+
+/* Mobile Specific Styles */
+@media (max-width: 500px) {
+.mobile-logo[data-v-e4e4508d] {
+    width: 50%; /* Logo should be bigger on smaller devices */
+}
+.uni-input[data-v-e4e4508d] {
+    font-size: 0.625rem; /* Make input text size smaller on mobile */
+}
+.submit-btn[data-v-e4e4508d] {
+    font-size: 0.875rem; /* Make the submit button size smaller */
+}
+.link[data-v-e4e4508d] {
+    font-size: 0.75rem; /* Smaller link size on mobile */
+}
+}
+.form-card[data-v-e4e4508d] {
+  width: 100%;
+  max-width: 20.3125rem;
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}

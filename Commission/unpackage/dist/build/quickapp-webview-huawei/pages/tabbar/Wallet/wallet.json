@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Wallet",
+  "usingComponents": {
+    "nav-bar": "../../Nav/NavBar"
+  }
+}

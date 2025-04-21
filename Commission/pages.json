@@ -1,0 +1,53 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "Login"
+      }
+    },
+    {
+      "path": "pages/tabbar/Home/home",
+      "style": {
+        "navigationBarTitleText": "Home"
+      }
+    },
+    {
+      "path": "pages/tabbar/Wallet/wallet",
+      "style": {
+        "navigationBarTitleText": "Wallet"
+      }
+    },
+    {
+      "path": "pages/tabbar/Order/order",
+      "style": {
+        "navigationBarTitleText": "Orders"
+      }
+    }
+  ],
+
+"tabBar": {
+  "list": [
+    {
+      "pagePath": "pages/tabbar/Home/home"
+    },
+    {
+      "pagePath": "pages/tabbar/Wallet/wallet"
+    },
+    {
+      "pagePath": "pages/tabbar/Order/order"
+    }
+  ],
+  "custom": true // 👈 IMPORTANT: Hide the default UI and let your icons take over
+},
+  "condition": {
+    "current": 0,
+    "list": [
+      {
+"name": "no-tabbar",
+      "path": "pages/login/login",  // ← this is the initial screen
+      "query": ""
+      }
+    ]
+  }
+}

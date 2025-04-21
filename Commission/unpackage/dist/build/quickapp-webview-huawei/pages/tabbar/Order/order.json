@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Orders",
+  "usingComponents": {
+    "nav-bar": "../../Nav/NavBar"
+  }
+}

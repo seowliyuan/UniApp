@@ -1,0 +1,24 @@
+{
+  "name": "commission",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "uni -p h5",
+    "build": "uni build -p h5",
+    "build:h5": "uni build -p h5",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "build:app-plus": "uni build -p app-plus"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0-alpha-3070020220707001",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-helper": "^1.0.0",
+    "@dcloudio/vue-cli-plugin-uni": "^4.0.0-alpha-3070020220707001",
+    "@vue/cli-service": "^4.5.19",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3", 
+    "tailwindcss": "^4.1.4",
+    "webpack": "^4.46.0"
+  }
+}

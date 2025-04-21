@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/tabbar/Home/home",
+    "pages/tabbar/Wallet/wallet",
+    "pages/tabbar/Order/order"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabbar/Home/home"
+      },
+      {
+        "pagePath": "pages/tabbar/Wallet/wallet"
+      },
+      {
+        "pagePath": "pages/tabbar/Order/order"
+      }
+    ],
+    "custom": true
+  },
+  "appType": "webapp",
+  "minPlatformVersion": 1070,
+  "name": "test",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "package": "test",
+  "usingComponents": {}
+}
